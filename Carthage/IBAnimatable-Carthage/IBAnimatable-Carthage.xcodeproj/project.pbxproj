@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB4C9AA1C4912CE00E815AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C9A91C4912CE00E815AE /* AppDelegate.swift */; };
+		AEB4C9AC1C4912CE00E815AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C9AB1C4912CE00E815AE /* ViewController.swift */; };
+		AEB4C9AF1C4912CE00E815AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB4C9AD1C4912CE00E815AE /* Main.storyboard */; };
+		AEB4C9B11C4912CE00E815AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB4C9B01C4912CE00E815AE /* Assets.xcassets */; };
+		AEB4C9B41C4912CE00E815AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB4C9B21C4912CE00E815AE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEB4C9A61C4912CE00E815AE /* IBAnimatable-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBAnimatable-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB4C9A91C4912CE00E815AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEB4C9AB1C4912CE00E815AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEB4C9AE1C4912CE00E815AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB4C9B01C4912CE00E815AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB4C9B31C4912CE00E815AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB4C9B51C4912CE00E815AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB4C9A31C4912CE00E815AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB4C99D1C4912CE00E815AE = {
+			isa = PBXGroup;
+			children = (
+				AEB4C9A81C4912CE00E815AE /* IBAnimatable-Carthage */,
+				AEB4C9A71C4912CE00E815AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB4C9A71C4912CE00E815AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB4C9A61C4912CE00E815AE /* IBAnimatable-Carthage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB4C9A81C4912CE00E815AE /* IBAnimatable-Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				AEB4C9A91C4912CE00E815AE /* AppDelegate.swift */,
+				AEB4C9AB1C4912CE00E815AE /* ViewController.swift */,
+				AEB4C9AD1C4912CE00E815AE /* Main.storyboard */,
+				AEB4C9B01C4912CE00E815AE /* Assets.xcassets */,
+				AEB4C9B21C4912CE00E815AE /* LaunchScreen.storyboard */,
+				AEB4C9B51C4912CE00E815AE /* Info.plist */,
+			);
+			path = "IBAnimatable-Carthage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB4C9A51C4912CE00E815AE /* IBAnimatable-Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB4C9B81C4912CE00E815AE /* Build configuration list for PBXNativeTarget "IBAnimatable-Carthage" */;
+			buildPhases = (
+				AEB4C9A21C4912CE00E815AE /* Sources */,
+				AEB4C9A31C4912CE00E815AE /* Frameworks */,
+				AEB4C9A41C4912CE00E815AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IBAnimatable-Carthage";
+			productName = "IBAnimatable-Carthage";
+			productReference = AEB4C9A61C4912CE00E815AE /* IBAnimatable-Carthage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB4C99E1C4912CE00E815AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jake Lin";
+				TargetAttributes = {
+					AEB4C9A51C4912CE00E815AE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AEB4C9A11C4912CE00E815AE /* Build configuration list for PBXProject "IBAnimatable-Carthage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB4C99D1C4912CE00E815AE;
+			productRefGroup = AEB4C9A71C4912CE00E815AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB4C9A51C4912CE00E815AE /* IBAnimatable-Carthage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB4C9A41C4912CE00E815AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB4C9B41C4912CE00E815AE /* LaunchScreen.storyboard in Resources */,
+				AEB4C9B11C4912CE00E815AE /* Assets.xcassets in Resources */,
+				AEB4C9AF1C4912CE00E815AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB4C9A21C4912CE00E815AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB4C9AC1C4912CE00E815AE /* ViewController.swift in Sources */,
+				AEB4C9AA1C4912CE00E815AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB4C9AD1C4912CE00E815AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB4C9AE1C4912CE00E815AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB4C9B21C4912CE00E815AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB4C9B31C4912CE00E815AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB4C9B61C4912CE00E815AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEB4C9B71C4912CE00E815AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB4C9B91C4912CE00E815AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IBAnimatable-Carthage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JakeLin.IBAnimatable-Carthage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEB4C9BA1C4912CE00E815AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IBAnimatable-Carthage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JakeLin.IBAnimatable-Carthage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB4C9A11C4912CE00E815AE /* Build configuration list for PBXProject "IBAnimatable-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB4C9B61C4912CE00E815AE /* Debug */,
+				AEB4C9B71C4912CE00E815AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB4C9B81C4912CE00E815AE /* Build configuration list for PBXNativeTarget "IBAnimatable-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB4C9B91C4912CE00E815AE /* Debug */,
+				AEB4C9BA1C4912CE00E815AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB4C99E1C4912CE00E815AE /* Project object */;
+}
