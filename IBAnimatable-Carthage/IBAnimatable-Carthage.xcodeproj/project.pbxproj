@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE477B481C4A7D7A00C27F02 /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE477B471C4A7D7A00C27F02 /* IBAnimatable.framework */; };
+		AE477B491C4A7D7A00C27F02 /* IBAnimatable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE477B471C4A7D7A00C27F02 /* IBAnimatable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AEB4C9AA1C4912CE00E815AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C9A91C4912CE00E815AE /* AppDelegate.swift */; };
 		AEB4C9AC1C4912CE00E815AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C9AB1C4912CE00E815AE /* ViewController.swift */; };
 		AEB4C9AF1C4912CE00E815AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB4C9AD1C4912CE00E815AE /* Main.storyboard */; };
@@ -14,7 +16,22 @@
 		AEB4C9B41C4912CE00E815AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB4C9B21C4912CE00E815AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AE477B4A1C4A7D7A00C27F02 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE477B491C4A7D7A00C27F02 /* IBAnimatable.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AE477B471C4A7D7A00C27F02 /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = Carthage/Build/iOS/IBAnimatable.framework; sourceTree = "<group>"; };
 		AEB4C9A61C4912CE00E815AE /* IBAnimatable-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBAnimatable-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB4C9A91C4912CE00E815AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB4C9AB1C4912CE00E815AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE477B481C4A7D7A00C27F02 /* IBAnimatable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +56,7 @@
 		AEB4C99D1C4912CE00E815AE = {
 			isa = PBXGroup;
 			children = (
+				AE477B471C4A7D7A00C27F02 /* IBAnimatable.framework */,
 				AEB4C9A81C4912CE00E815AE /* IBAnimatable-Carthage */,
 				AEB4C9A71C4912CE00E815AE /* Products */,
 			);
@@ -74,6 +93,7 @@
 				AEB4C9A21C4912CE00E815AE /* Sources */,
 				AEB4C9A31C4912CE00E815AE /* Frameworks */,
 				AEB4C9A41C4912CE00E815AE /* Resources */,
+				AE477B4A1C4A7D7A00C27F02 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,8 +267,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "IBAnimatable-Carthage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/IBAnimatable.framework",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "JakeLin.IBAnimatable-Carthage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -258,8 +286,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "IBAnimatable-Carthage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/IBAnimatable.framework",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "JakeLin.IBAnimatable-Carthage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -284,6 +320,7 @@
 				AEB4C9BA1C4912CE00E815AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
