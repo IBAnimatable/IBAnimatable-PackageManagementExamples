@@ -53,11 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AEB4C99D1C4912CE00E815AE = {
+		AE148F371C9EBD3000E8126F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				AE477B471C4A7D7A00C27F02 /* IBAnimatable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB4C99D1C4912CE00E815AE = {
+			isa = PBXGroup;
+			children = (
 				AEB4C9A81C4912CE00E815AE /* IBAnimatable-Carthage */,
+				AE148F371C9EBD3000E8126F /* Frameworks */,
 				AEB4C9A71C4912CE00E815AE /* Products */,
 			);
 			sourceTree = "<group>";
