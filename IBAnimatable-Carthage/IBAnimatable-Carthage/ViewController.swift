@@ -13,6 +13,9 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    let aView = AnimatableView(frame: .zero)
+    view.addSubview(aView)
+    
     // Do any additional setup after loading the view, typically from a nib.
   }
 
