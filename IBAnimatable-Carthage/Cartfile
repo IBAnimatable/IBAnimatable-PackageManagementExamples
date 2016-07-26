@@ -1,2 +1,2 @@
 # Cartfile
-github "JakeLin/IBAnimatable" "feature/separate-plist-for-ibanimatable-framework" 
+github "IBAnimatable/IBAnimatable"
