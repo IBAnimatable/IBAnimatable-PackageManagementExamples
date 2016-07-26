@@ -1,4 +1,6 @@
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'IBAnimatable'
+target 'IBAnimatable-CocoaPods' do
+  pod 'IBAnimatable'
+end
